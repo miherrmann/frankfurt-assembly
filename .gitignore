@@ -1,0 +1,29 @@
+# Git
+.gitattributes
+
+# Folders
+archive/
+
+# Files
+data/raw/*.tab
+results/estimation-output/*.csv
+model
+!model.stan
+
+# File types
+*.exe
+*.zip
+*.html
+*.rda
+*.rdata
+*.rds
+*.xlsx
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+
+# IDE specific files
+.Rproj.user
+.vscode/
